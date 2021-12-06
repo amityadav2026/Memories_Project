@@ -15,7 +15,7 @@ app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
 app.get("/", (req, res) => {
-    "APP IS RUNNNING";
+    res.send("APP IS RUNNNING");
 });
 
 const CONNECTION_URL =
